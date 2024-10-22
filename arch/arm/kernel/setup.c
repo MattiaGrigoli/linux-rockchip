@@ -603,6 +603,10 @@ void __init smp_setup_processor_id(void)
 	set_my_cpu_offset(0);
 
 	pr_info("Booting Linux on physical CPU 0x%x\n", mpidr);
+	//prova scrittura su dmesg
+	pr_info("io mi oppongo!");
+	pr_warn("quit, don't quit, noodles!");
+	pr_debug("il contadino! nella locanda! ... non ha pagato il conto");
 }
 
 struct mpidr_hash mpidr_hash;
