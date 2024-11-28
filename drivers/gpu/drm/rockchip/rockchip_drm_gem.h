@@ -10,6 +10,7 @@
 #include <linux/dma-direction.h>
 
 #define to_rockchip_obj(x) container_of(x, struct rockchip_gem_object, base)
+#define ROCKCHIP_BO_DMA32 1
 
 enum rockchip_gem_buf_type {
 	ROCKCHIP_GEM_BUF_TYPE_CMA,
